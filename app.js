@@ -20,9 +20,9 @@ function verificarIntento() {
     } else {
         //El usuario no acertó.
         if (numeroDeUsuario > numeroSecreto) {
-            asignarTextoElemento('p','El número secreto es menor');
+            asignarTextoElemento('p','El número secreto es menor al ingresado');
         } else {
-            asignarTextoElemento('p','El número secreto es mayor');
+            asignarTextoElemento('p','El número secreto es mayor al ingresado');
         }
         intentos++;
         limpiarCaja();
